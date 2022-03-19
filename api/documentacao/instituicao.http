@@ -1,0 +1,76 @@
+GET http://doardigital.tk/api/instituicao?token=string
+
+###
+configuracao
+GET http://doardigital.tk/api/instituicao-id?instituicao_id=int
+
+###
+GET http://doardigital.tk/api/info-subdomaim?subdomaim=string
+
+###
+POST http://doardigital.tk/api/update-instituicao
+Content-Type: application/x-www-form-urlencoded
+
+token=string
+&instituicao_id=int
+&nome_fantasia=string
+&razao_social=string
+&email=string
+&cnpj=string
+&telefone=string
+
+###
+POST http://doardigital.tk/api/configuracao-instituicao
+Content-Type: application/x-www-form-urlencoded
+
+token=string
+&instituicao_id=int
+&tags=string
+&descricao_site=string
+&cor=string
+&logo=string
+
+###
+POST http://doardigital.tk/api/on_off
+Content-Type: application/x-www-form-urlencoded
+
+token=string
+&instituicao_id=int
+
+###
+POST http://doardigital.tk/api/create-instituicao
+Content-Type: application/x-www-form-urlencoded
+
+token=string
+&nome_fantasia=string
+&razao_social=string
+&subdomaim=string
+&email=string
+&cnpj=string
+&telefone=string
+&tipo_empresa=string(MEI, LIMITED, INDIVIDUAL, ASSOCIATION)
+&logradouro=string
+&complemento=string
+&bairro=string
+&cidade=string
+&estado=string
+&numero=string
+&cep=string
+
+###
+POST http://doardigital.tk/api/update-domain-person
+Content-Type: application/x-www-form-urlencoded
+
+token=string
+&instituicao_id=int
+&dominio=string
+
+
+
+###
+GET http://doardigital.tk/api/subdominio-disponivel?subdomain=string
+Content-Type: application/x-www-form-urlencoded
+// criar ou salvar dados bancario 
+
+
+

@@ -1,0 +1,13 @@
+GET https://doardigital.tk/api/list-credencial?token=string
+Content-Type: application/x-www-form-urlencoded
+
+
+###
+
+POST https://doardigital.tk/api/update-credencial
+Content-Type: application/x-www-form-urlencoded
+
+token=string
+&id=int
+&nome_identificacao=string
+&recursos=string
